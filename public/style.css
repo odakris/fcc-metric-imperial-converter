@@ -1,7 +1,101 @@
-code {
-    background-color: whitesmoke;
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
 }
 
-section, header {
-    margin: 50px;
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 25px;
+    color: linen;
+    background-color: #003c58;
+}
+
+.titles {
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    width: 100%;
+    padding-left: 50px;
+    margin: 30px 10px;
+}
+
+hr {
+    width: 100%;
+    margin: 20px;
+}
+
+.converter {
+    width: 100%;
+}
+
+form {
+    padding: 25px;
+    margin: 20px;
+    background-color: #1c5a77;
+    display: inline-block;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid linen;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #e4f1fe;
+    border: 1px solid grey;
+    box-shadow: 2px 2px #999;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fffec4;
+}
+
+#result,
+#jsonResult {
+    min-height: 48px;
+}
+
+code {
+    text-align: left;
+    margin: 0 30px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    color: #003c58;
+    background-color: linen;
+    min-width: 95%;
+    white-space: break-spaces;
+    word-break: break-all;
+}
+
+.footer {
+    margin: 30px;
+}
+
+a {
+    color: linen;
 }
