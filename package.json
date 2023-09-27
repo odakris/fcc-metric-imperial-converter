@@ -1,6 +1,6 @@
 {
 	"name": "fcc-imperial-metric-converter-boilerplate",
-  "author": "odakris",
+  	"author": "odakris",
 	"version": "1.0.0",
 	"description": "Metric / Imperial Unit Converter",
 	"main": "server.js",
